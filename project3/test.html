@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript HTML Events</h2>
+<h2 id="12"">Click on this text!</h2>
+
+<span id="prev-1" class="button"><</span>
+<span id="header-1">today</span>
+<span id="next-1" class="button">></span>
+<table id="cal-1">
+</table>
+<script>
+
+function changeText(event) {
+    console.log("Register: ", event.currentTarget)
+    console.log("Envoked by:", event.target)
+}
+
+function findTarget() {
+
+}
+
+document.getElementById("div1").onclick = changeText;
+
+
+</script>
+
+</body>
+</html>
