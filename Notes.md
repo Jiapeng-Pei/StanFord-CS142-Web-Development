@@ -13,13 +13,13 @@
 `动物住址协议://地球/中国/北京市/清华大学/18号宿舍楼/404号寝/张三.人。而这个地址就是我们用于标识和定位的 URL。`
 我们从上面可以很明显的看出，URI 通过任何方法标识一个人即可，而 URL 虽然也可以标识一个人，但是它主要是通过定位地址的方法标识一个人，所以 URL 其实是 URI 的一个子集，即 URL 是靠标识定位地址的一个 URI。
 
-![](D:\Master_File\StanFord CS142 Web Development\pictures\URL.jpg)
+![](pictures/URL.jpg)
 
 
 
 #### This Keyword
 
-![](D:\Master_file\StanFord CS142 Web Development\pictures\Screenshot 2022-12-05 165424.jpg)
+![](pictures\Screenshot 2022-12-05 165424.jpg)
 
 - 对于非Arrow Function, this指向调用当前方法的Object。如果这是一个non-method function，this指向global object。上面描述的是默认情况，当然我也可以通过bind，call等方法来改变this的reference。
 - 对于Arrow Function，Arrow functions don't have their own “this”, and they don’t redefine the value of “this ”within the function. **Regardless of how you execute arrow functions, this inside an arrow function always refers to this from the outer context.** This means that this keyword is lexically bound in arrow functions. This始终为在创建该arrow function时指向的值。
@@ -28,4 +28,4 @@
 
 #### Promise
 
-![](D:\Master_File\StanFord CS142 Web Development\pictures\Promise_then().jpg)
+![](pictures\Promise_then().jpg)

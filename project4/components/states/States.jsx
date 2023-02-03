@@ -32,11 +32,10 @@ class States extends React.Component {
     return (
       <div className="Problem2">
         <div className='filter-update'>
-          Fill in the filter here:
-          <br></br>
+          Fill in the filter here:   
           <input id="filter-input" type="text" value={this.state.filterString} onChange={this.handleInputChange} />
         </div>
-        
+        <br></br>
         <div className='display-states'>
           <h3>
             Results:
